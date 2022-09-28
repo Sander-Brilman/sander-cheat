@@ -1,9 +1,21 @@
-import "https://raw.githubusercontent.com/Sander-Brilman/lester_cheat_remastered/master/engels-script.js";
+
+'https://raw.githubusercontent.com/Sander-Brilman/lester_cheat_remastered/master/functions.js';
+
 
 // check for start button & click it
 if ($('.cover_header_startbtn').length > 0) {
     window.open($('.cover_header_startbtn').attr('href'), '_self');
 }
+
+
+async function loadScript(url) {
+    let response = await fetch(url);
+    let script = await response.text();
+    eval(script);
+}
+
+let scriptUrl = 'https://raw.githubusercontent.com/Sander-Brilman/lester_cheat_remastered/master/functions.js'
+loadScript(scriptUrl);
 
 
 // 
