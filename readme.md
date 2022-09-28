@@ -1,4 +1,4 @@
-# Sander Cheat Remastered
+# Sander Cheat
 
 #### Het gps-cheater script (beter bekent als de **Lester Cheat**) is verbeterd!<br>
 Door een nieuwe manier van antwoorden stelen zijn bijna alle opdrachten nu door het script te maken en krijg je heel makkelijk en snel 100% op je opdrachten.
