@@ -23,7 +23,7 @@ $('.magazine_page_largetitle2')
     <span style="color: red;">Sander Cheat</span><br><br>
 
     Gemaakt door <a href="https://sanderbrilman.nl" target="_blank" style="text-decoration: underline;">Sander Brilman</a><br>
-    <a href="https://github.com/Sander-Brilman/lester_cheat_remastered" target="_blank" style="text-decoration: underline;">- Github repo</a><br>
+    <a href="https://github.com/Sander-Brilman/sander-cheat" target="_blank" style="text-decoration: underline;">- Github repo</a><br>
     <a href="https://github.com/leslmosnk/gps-cheater-script" target="_blank" style="text-decoration: underline;">- Origineel</a><br>
 `);
 

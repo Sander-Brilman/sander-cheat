@@ -8,6 +8,6 @@ Kopieer en plak de code uit de `minified.js` file in de **console** van de **dev
 
 ## Credits
 
-De [**Sander Cheat**](https://github.com/Sander-Brilman/lester_cheat_remastered) is gemaakt door [Sander Brilman](https://sanderbrilman.nl)
+De [**Sander Cheat**](https://github.com/Sander-Brilman/sander-cheat) is gemaakt door [Sander Brilman](https://sanderbrilman.nl)
 <br>
 Het originele cheater-script is gemaakt door [Lester Morsink](https://github.com/leslmosnk) en is [hier](https://github.com/leslmosnk/gps-cheater-script) te vinden
