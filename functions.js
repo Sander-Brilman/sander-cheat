@@ -1,3 +1,3 @@
-const test = function() {
-    console.log('testing');
+function test() {
+    console.log('test worked');
 }
