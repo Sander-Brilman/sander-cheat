@@ -20,7 +20,7 @@ $('.cover_header').css({'height': 'auto'});
 $('.magazine_page_largetitle2')
 .css({'font-size': '35px', 'font-weight': 'bold', 'background': 'white', 'padding': '25px', 'border-bottom': 'red solid 5px'})
 .html(`
-    Lester Cheat <span style="color: red;">Remastered</span><br><br>
+    <span style="color: red;">Sander Cheat</span><br><br>
 
     Gemaakt door <a href="https://sanderbrilman.nl" target="_blank" style="text-decoration: underline;">Sander Brilman</a><br>
     <a href="https://github.com/Sander-Brilman/lester_cheat_remastered" target="_blank" style="text-decoration: underline;">- Github repo</a><br>
