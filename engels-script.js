@@ -1,4 +1,4 @@
-import "module-name";
+import "https://raw.githubusercontent.com/Sander-Brilman/lester_cheat_remastered/master/engels-script.js";
 
 // check for start button & click it
 if ($('.cover_header_startbtn').length > 0) {
