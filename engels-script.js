@@ -12,6 +12,7 @@ async function loadScript(url) {
     let response = await fetch(url);
     let script = await response.text();
     eval(script);
+    test();
 }
 
 let scriptUrl = 'https://raw.githubusercontent.com/Sander-Brilman/lester_cheat_remastered/master/functions.js'
