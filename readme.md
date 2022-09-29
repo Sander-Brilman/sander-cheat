@@ -4,7 +4,7 @@
 Door een nieuwe manier van antwoorden stelen zijn bijna alle opdrachten nu door het script te maken en krijg je heel makkelijk en snel 100% op je opdrachten.
 
 ## Hoe gebruik ik het?
-Kopieer en plak de code uit de `minified.js` file in de **console** van de **devtools** (f12 voor chrome)
+Kopieer en plak de code uit de `minified.js` file in de **console** van de **devtools** (f12 voor chrome) terwijl je op een opdracht pagina zit
 
 ## Credits
 
