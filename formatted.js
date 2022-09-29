@@ -1,7 +1,6 @@
 // 
-// Formatted & commented version of the code
+// Formatted version of the code
 // 
-
 
 // variable deflations
 let executeScript   = true;
@@ -21,7 +20,6 @@ $('.magazine_page_largetitle2')
 .css({'font-size': '35px', 'font-weight': 'bold', 'background': 'white', 'padding': '25px', 'border-bottom': 'red solid 5px'})
 .html(`
     <span style="color: red;">Sander Cheat</span><br><br>
-
     Gemaakt door <a href="https://sanderbrilman.nl" target="_blank" style="text-decoration: underline;">Sander Brilman</a><br>
     <a href="https://github.com/Sander-Brilman/sander-cheat" target="_blank" style="text-decoration: underline;">- Github repo</a><br>
     <a href="https://github.com/leslmosnk/gps-cheater-script" target="_blank" style="text-decoration: underline;">- Origineel</a><br>
@@ -79,6 +77,7 @@ if (executeScript) {
         } else {
             $('.magazine_page_largetitle2').css('color', 'red').html('Automatisch beantwoorden mislukt.<br><br>Kijk in de console voor de antwoorden en voer ze handmatig in.');
             console.log('andwoorden: ', answers);
+            $('#gfeedback').fadeIn();
         }
 
     } else {
