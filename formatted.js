@@ -72,9 +72,12 @@ if (executeScript) {
 
         } else if ($('.answer30').length > 0) {// text fields
 
-            // do nothing, empty answers for text fields are correct somehow..
+            // get the first valid answer for each text field & enter that as value. The checkbox will send the answers to the server for us :)
+            $.each($('.answer30'), function(p) {
+                $(this).val(answers[$(this).attr('id').replace('qu', '')][0]);
+            });
 
-        } else {
+        } else {// in case of unknown situation: show feedback allowing the person to solve it themselves
             $('.magazine_page_largetitle2').css('color', 'red').html('Automatisch beantwoorden mislukt.<br><br>Kijk in de console voor de antwoorden en voer ze handmatig in.');
             console.log('andwoorden: ', answers);
             $('#gfeedback').fadeIn();
@@ -85,5 +88,6 @@ if (executeScript) {
         send_answer($('#pw_id').val(), answers.join('+'));
     }
 
+    // check answers & go to next question
     checkAndNext();
 }
