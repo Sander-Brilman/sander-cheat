@@ -1,16 +1,25 @@
-# Sander Cheat
+# Sander Cheat voor GPS taal en rekenen
 
-#### Het gps-cheater script (beter bekent als de **Lester Cheat**) is verbeterd!<br>
-Door een nieuwe manier van antwoorden stelen zijn bijna alle opdrachten nu door het script te maken en krijg je heel makkelijk en snel 100% op je opdrachten.
-<br><br>
+Met de Sander Cheat voor GPS taal en rekenen heb al je Engels huiswerk binnen een paar seconden af.
+Deze cheat is de verbeterde versie van de eerder uitgebrachte gps-cheater-script (Beter bekend als Lester Cheat)
 
-**[meer info](https://sanderbrilman.nl/sander-cheat/)**
+Hieronder is te lezen hoe je de cheat moet gebruiken. Gemaakt door Sander Brilman
 
-## Hoe gebruik ik het?
-Kopieer en plak de code uit de `minified.js` file in de **console** van de **devtools** (f12 voor chrome) terwijl je op een opdracht pagina zit. 
+[Bekijk de website](https://sanderbrilman.nl/sander-cheat/)
 
-## Credits
+## Hoe gebruikt ik het?
+Kopieer de code uit minified.js.
 
-De [**Sander Cheat**](https://github.com/Sander-Brilman/sander-cheat) is gemaakt door [Sander Brilman](https://sanderbrilman.nl)
-<br>
-Het originele cheater-script is gemaakt door [Lester Morsink](https://github.com/leslmosnk) en is [hier](https://github.com/leslmosnk/gps-cheater-script) te vinden
+Plak de code daarna in de developer tools console van je browser als je een GPS opdracht open hebt staan.
+
+
+## Problemen melden
+Zijn er problemen met de cheat of werkt er iets niet?
+
+Maak een hier issue aan of stuur mij een bericht via Discord (Sander Brilman#0001),
+Je kan mij ook een [E-mail](mailto:brilmansander@gmail.com) sturen
+
+Zorg dat je een screenshot en de opdracht url meegeeft. Anders kan ik het probleem niet oplossen!
+
+
+Deze cheat is geïnspireerd op de voorganger, [gps-cheater-script](https://github.com/leslmosnk/gps-cheater-script)
