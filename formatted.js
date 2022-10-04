@@ -79,7 +79,7 @@ if (executeScript) {
 
         } else {// in case of unknown situation: show feedback allowing the person to solve it themselves
             $('.magazine_page_largetitle2').css('color', 'red').html('Automatisch beantwoorden mislukt.<br><br>Kijk in de console voor de antwoorden en voer ze handmatig in.');
-            console.log('andwoorden: ', answers);
+            console.log('antwoorden: ', answers);
             $('#gfeedback').fadeIn();
         }
 
