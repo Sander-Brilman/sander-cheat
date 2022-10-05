@@ -15,23 +15,31 @@ $('.magazine_page_largetitle2')
 
 let answers;
 
-$.ajax({
-    type: 'POST',
-    url: '/werkvormen/answer.php',
-    async: false,
-    data: {
-        'pwid': $('#pw_id').val(),
-    },
-    context: document.body,
-    success: function(data) {
-        answers = JSON.parse(data);
-    }
-});
+const getAnswers = function() {
+    let answer;
+    $.ajax({
+        type: 'POST',
+        url: '/werkvormen/answer.php',
+        async: false,
+        data: {
+            'pwid': $('#pw_id').val(),
+        },
+        context: document.body,
+        success: function(data) {
+            answer = JSON.parse(data);
+        }
+    });
+    return answer;
+}
+
+
 
 if ($('#istoets').val() == 1) {
     // 
     // toets script
     // 
+
+    answers = getAnswers();
     
     if (typeof answers[0] !== 'string' && !(answers[0] instanceof String)) {
         // 
@@ -103,29 +111,32 @@ if ($('#istoets').val() == 1) {
 
     // get & send the answers if no button has been pressed yet
     if (executeScript) {
+
+        answers = getAnswers();
         
         if (typeof answers[0] !== 'string' && !(answers[0] instanceof String)) {
             // 
             // exceptions where a different answer format is required
             // 
-
+        
             if (!isNaN(answers)) {// radio buttons
-
+        
                 $(`#box${answers} .rradio`).click();
-
+                $('#btn_controleer').click();
+        
             } else if ($('.answer30').length > 0) {// text fields
-
+        
                 // get the first valid answer for each text field & enter that as value. The checkbox will send the answers to the server for us :)
                 $.each($('.answer30'), function(p) {
                     $(this).val(answers[$(this).attr('id').replace('qu', '')][0]);
                 });
-
+        
             } else {// in case of unknown situation: show feedback allowing the person to solve it themselves
                 $('.magazine_page_largetitle2').css('color', 'red').html('Automatisch beantwoorden mislukt.<br><br>Kijk in de console voor de antwoorden en voer ze handmatig in.');
                 console.log('antwoorden: ', answers);
                 $('#gfeedback').fadeIn();
             }
-
+        
         } else {
             // send the correct answers back to the server
             send_answer($('#pw_id').val(), answers.join('+'));
@@ -136,4 +147,7 @@ if ($('#istoets').val() == 1) {
     }
 
 }
+
+
+
 
