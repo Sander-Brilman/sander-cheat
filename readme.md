@@ -1,6 +1,6 @@
 # Sander Cheat voor GPS taal en rekenen
 
-Met de Sander Cheat voor GPS taal en rekenen heb al je Engels huiswerk binnen een paar seconden af.
+Met de Sander Cheat voor GPS taal en rekenen heb al je Engels huiswerk en toetsen binnen een paar seconden af.
 Deze cheat is de verbeterde versie van de eerder uitgebrachte gps-cheater-script (Beter bekend als Lester Cheat)
 
 Hieronder is te lezen hoe je de cheat moet gebruiken. Gemaakt door Sander Brilman
