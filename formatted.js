@@ -13,25 +13,25 @@ $('.magazine_page_largetitle2')
     <a href="https://github.com/Sander-Brilman/sander-cheat" target="_blank" style="text-decoration: underline;">- Github repo</a><br>
 `);
 
+let answers;
+
+$.ajax({
+    type: 'POST',
+    url: '/werkvormen/answer.php',
+    async: false,
+    data: {
+        'pwid': $('#pw_id').val(),
+    },
+    context: document.body,
+    success: function(data) {
+        answers = JSON.parse(data);
+    }
+});
+
 if ($('#istoets').val() == 1) {
     // 
     // toets script
     // 
-
-    let answers;
-
-    $.ajax({
-        type: 'POST',
-        url: '/werkvormen/answer.php',
-        async: false,
-        data: {
-            'pwid': $('#pw_id').val(),
-        },
-        context: document.body,
-        success: function(data) {
-            answers = JSON.parse(data);
-        }
-    });
     
     if (typeof answers[0] !== 'string' && !(answers[0] instanceof String)) {
         // 
@@ -71,7 +71,6 @@ if ($('#istoets').val() == 1) {
 
     // variable deflations
     let executeScript   = true;
-    let answers         = null;
 
     // function for clicking the Check & Next button
     const checkAndNext = function() {
@@ -104,18 +103,6 @@ if ($('#istoets').val() == 1) {
 
     // get & send the answers if no button has been pressed yet
     if (executeScript) {
-        $.ajax({
-            type: 'POST',
-            url: '/werkvormen/answer.php',
-            async: false,
-            data: {
-                'pwid': $('#pw_id').val(),
-            },
-            context: document.body,
-            success: function(data) {
-                answers = JSON.parse(data);
-            }
-        });
         
         if (typeof answers[0] !== 'string' && !(answers[0] instanceof String)) {
             // 
