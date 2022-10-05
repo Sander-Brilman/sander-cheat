@@ -17,11 +17,15 @@ let answers;
 
 const getAnswers = function() {
     let answer;
+    let url = window.location.pathname.split('/');
     $.ajax({
         type: 'POST',
         url: '/werkvormen/answer.php',
         async: false,
         data: {
+            'lid': url[3],
+            'mid': url[4],
+            'pid': url[5],
             'pwid': $('#pw_id').val(),
         },
         context: document.body,
