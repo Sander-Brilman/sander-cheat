@@ -1,11 +1,13 @@
 # Sander Cheat voor GPS taal en rekenen
 
+<h2 style="color: red;">De Sander Cheat is gepached. Er is nog geen nieuwe versie beschikbaar</h2>
+
 Met de Sander Cheat voor GPS taal en rekenen heb al je Engels huiswerk en toetsen binnen een paar seconden af.
 Deze cheat is de verbeterde versie van de eerder uitgebrachte gps-cheater-script (Beter bekend als Lester Cheat)
 
 Hieronder is te lezen hoe je de cheat moet gebruiken. Gemaakt door Sander Brilman
 
-[Bekijk de website](https://sanderbrilman.nl/sander-cheat/)
+[Bekijk de website voor de meest recente updates](https://sanderbrilman.nl/sander-cheat/)
 
 ## Hoe gebruikt ik het?
 Kopieer de code uit minified.js.
