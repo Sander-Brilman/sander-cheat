@@ -1,6 +1,6 @@
 # Sander Cheat voor GPS taal en rekenen
 
-<h2 style="color: red;">De Sander Cheat is gepached. Er is nog geen nieuwe versie beschikbaar</h2>
+<h2 style="color: red;">LET OP! De Sander Cheat is gepached. Er is nog geen nieuwe versie beschikbaar</h2>
 
 Met de Sander Cheat voor GPS taal en rekenen heb al je Engels huiswerk en toetsen binnen een paar seconden af.
 Deze cheat is de verbeterde versie van de eerder uitgebrachte gps-cheater-script (Beter bekend als Lester Cheat)
